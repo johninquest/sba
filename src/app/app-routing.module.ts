@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthComponent } from './pages/auth/auth.component';
 import { CustomerListComponent } from './pages/customers/customer-list/customer-list.component';
-import { CustomerFormComponent } from './pages/customers/customer-form/customer-form.component';
 import { CustomerDetailsComponent } from './pages/customers/customer-details/customer-details.component';
 import { DefaultComponent } from './pages/default/default.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -18,10 +17,6 @@ const routes: Routes = [
   {
     path: 'customer-list',
     component: CustomerListComponent,
-  },
-  {
-    path: 'customer-form',
-    component: CustomerFormComponent,
   },
   {
     path: 'customer-details',
